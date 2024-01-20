@@ -1,0 +1,28 @@
+#about{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#about .h2{
+    font-weight: bold;
+    color: #00E5B0;
+    letter-spacing: 0.1rem;
+}
+
+#about .title{
+    color: #F2ECFF;
+    font-weight: bold;
+    letter-spacing: 0.175rem;
+}
+
+#about .body{
+    line-height: 2.25rem;
+}
+
+#about .btn{
+    margin-top: 30px;
+    background-color: #3E54AC;
+    color: #F2ECFF;
+    font-weight: 600;
+    padding: 8px 32px;
+}

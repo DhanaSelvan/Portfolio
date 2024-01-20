@@ -1,0 +1,124 @@
+#contact .title{
+    font-weight: bold;
+    color: #00E5B0;
+    letter-spacing: 0.1rem;
+}
+
+.container{
+    align-items: center;
+}
+
+.contact-container{
+    width: max-content;
+    background-color: #1E1E1E;
+    margin-top: 20px;
+    padding: 20px 50px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.lab-text{
+    /* font-size: 1.125rem; */
+    letter-spacing: 0.075rem;
+    margin: 10px 0px;
+    color: #F2ECFF;
+}
+
+.input{
+    padding: 5px 10px;
+    font-size: 1.25em;
+    border-radius: 5px;
+    border-color: #633a8280;
+    color: #4F2E69;
+}
+
+.input:focus{
+    outline: none;
+    border-color: rgb(99, 58, 130);
+    font-family: "poppins-semibold";
+}
+
+#message{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 5px 10px;
+    border-color: #633a8280;
+    color: #4F2E69;
+}
+
+#message:focus{
+    outline: none;
+    border-color: rgb(99, 58, 130);
+}
+
+#submit-btn{
+    width: max-content;
+    text-align: center;
+    background-color: #3E54AC;
+    border-radius: 5px;
+    color: #FFF6FF;
+    border: 2px solid transparent;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 8px 16px;
+}
+
+#submit-btn:hover{
+    border: 2px solid #3e54ac;
+    background-color: rgba(62, 84, 172,0.8);
+    cursor: pointer;
+}
+
+#contact{
+    position: relative;
+}
+
+.alert-box{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(30, 30, 30,0.5);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-message{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(30, 30, 30,0.5);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-message img{
+    max-width: 128px;
+    max-height: 128px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 300px;
+    background-color: #F2ECFF;
+    border-radius: 8px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.btn-primary{
+    padding: 4px 24px;
+}
+
+.body{
+    color: #1E1E1E;
+}

@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #121212;
+    color: #F2ECFF;
+}
+
+.heading{
+    font-size: clamp(1.85rem, 2vw, 2.5rem);
+    font-weight: bold;
+}
+
+.title{
+    font-size: clamp(1.85rem, 2vw, 2.25rem);
+}
+
+.subtitle{
+    font-size: 1.5rem;
+}
+
+.body{
+    font-size: 1.25rem;
+}
+
+.details{
+    font-size: 1.125rem;
+}
+
+.darker{
+    color: rgba(241, 235, 255,0.8);
+}
+
+.bold{
+    font-weight: 500;
+}

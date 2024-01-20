@@ -1,0 +1,46 @@
+#home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-image: url(/assets/images/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.85);
+    background-blend-mode: multiply;
+}
+
+#home .Container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/assets/images/Bubbleimage.png);
+    background-color: rgba(0,0,0,0.1);
+    background-blend-mode: screen;
+    background-position: center;
+}
+
+#home span{
+    letter-spacing: 0.2rem;
+}
+
+#home .title{
+    font-weight: 600;
+    color: #F2ECFF;
+}
+
+#home .h1{
+    color: #F2ECFF;
+    font-weight: 500;
+}
+
+#home .h1 span{
+    color: #00E5B0;
+    font-weight: bold;
+}
+
+#home .btn{
+    background-color: #3E54AC;
+    color: #F2ECFF;
+    font-weight: 600;
+    padding: 8px 32px;
+}
