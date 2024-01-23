@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  toHome(){
+    document.getElementById("Home") ?.scrollIntoView();
+  }
+  toAbout(){
+    document.getElementById("About") ?.scrollIntoView();
+  }
+  toSkills(){
+    document.getElementById("Skills") ?.scrollIntoView();
+  }
+  toProject(){
+    document.getElementById("Project") ?.scrollIntoView();
+  }
+  toContact(){
+    document.getElementById("Contact") ?.scrollIntoView();
+  }
 }

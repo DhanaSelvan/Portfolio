@@ -7,5 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
-  
+  // toHome(){
+  //   document.getElementById("homeSection").scrollIntoView();
+  // }
+  // toAbout(){
+
+  // }
+  // toSkills(){
+
+  // }
+  // toProjects(){
+
+  // }
+  // toContact(){
+
+  // }
 }

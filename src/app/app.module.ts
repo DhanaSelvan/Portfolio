@@ -10,6 +10,15 @@ import { ContactComponent } from './component/contact/contact.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { FormsModule } from '@angular/forms';
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [
+  {path: "", component: HomeComponent},
+  {path: "about", component: AboutComponent},
+  {path: "project", component: ProjectComponent},
+  {path: "skills", component: SkillsComponent},
+  {path: "contact", component: ContactComponent}
+]
 
 @NgModule({
   declarations: [
@@ -24,7 +33,8 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
