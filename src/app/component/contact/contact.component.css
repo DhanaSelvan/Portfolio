@@ -31,8 +31,13 @@
     margin: 10px 0px;
     color: #F2ECFF;
 }
+.left-section{
+    display: flex;
+    flex-direction: column;
+}
 
 .input{
+    max-width: max-content;
     padding: 5px 10px;
     font-size: 1.25em;
     border-radius: 5px;
@@ -51,6 +56,7 @@
     border-radius: 5px;
     font-size: 1.5em;
     padding: 5px 10px;
+    max-width: max-content;
     border-color: #633a8280;
     color: #4F2E69;
 }
